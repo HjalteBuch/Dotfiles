@@ -97,12 +97,6 @@ return {
         })
 
         -- configure Bash server with plugin
-        lspconfig["harper_ls"].setup({
-            capabilities = capabilities,
-            on_attach = on_attach,
-        })
-
-        -- configure Bash server with plugin
         lspconfig["markdown_oxide"].setup({
             capabilities = capabilities,
             on_attach = on_attach,

@@ -28,7 +28,6 @@ return {
                 "tsserver",
                 "csharp_ls",
                 "bashls",
-                "harper_ls",
                 "markdown_oxide",
             },
             automatic_installation = true,

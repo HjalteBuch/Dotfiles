@@ -23,7 +23,7 @@ keymap.set("t", "<C-x>", "<C-d>")
 
 -- Obsidian keybindings
 keymap.set("n", "<leader>on", ":ObsidianNew<CR>")
-keymap.set("n", "<leader>ol", "viw:ObsidianLink<CR>")
+keymap.set("n", "<leader>ol", "viw:ObsidianLinkNew<CR>")
 
 -- Split window
 keymap.set("n", "<leader>sv", "<C-w>v")
